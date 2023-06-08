@@ -1,0 +1,9 @@
+.navbarContainer{
+  @aplly fixed w-full bg-white z-10 shadow-sm;
+  &Wrapper{
+    @apply py-4 border-b-[1px];
+    &Items{
+      @apply flex flex-row items-center justify-between gap-3 md:gap-0;
+    }
+  }
+} 
